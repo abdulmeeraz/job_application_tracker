@@ -37,7 +37,7 @@ job_application_tracker/
 ## How to Run the Project
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/job-application-tracker.git
+git clone https://github.com/abdulmeeraz/job_application_tracker.git
 
 
 Navigate to the project directory:
