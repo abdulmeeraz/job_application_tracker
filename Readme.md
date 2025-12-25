@@ -26,9 +26,13 @@ This project demonstrates practical use of Python with SQL and focuses on real-w
 
 ## Project Structure
 job_application_tracker/
+
 │
+
 ├── app.py # Main application logic
+
 ├── database.py # Database connection and table creation
+
 └── job_tracker.db # SQLite database (auto-generated)
 
 
