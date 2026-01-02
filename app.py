@@ -31,13 +31,14 @@ def view_jobs():
     cursor.close()
 
 def update_status():
+    view_jobs()
     job_id = input("Enter Job Id : ")
     new_status = input("New Status : ")
 
     conn = connect_db()
     cursor = conn.cursor()
 
-    cursor.execute("UPDATE jobs SET status = ? WHERE id = ?",(job_id,new_status))
+    cursor.execute("UPDATE jobs SET status = ? WHERE id = ?", (new_status, job_id))
     conn.commit()
     conn.close()
     print("\n Job status updated successfully✅")
